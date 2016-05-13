@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pap.mddsp.gameconsole" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.pap.mddsp.gameconsole.MenuDeJogos"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+        <activity
+            android:name="com.pap.mddsp.gameconsole.MainMenu"
+            android:label="@string/title_activity_Menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        -->
+        <activity
+            android:name="com.pap.mddsp.gameconsole.jogos.PingPong.Ping_Pong"
+            android:label="@string/title_activity_ping__pong"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pap.mddsp.gameconsole.jogos.PingPong.Ping_Pong_Cos"
+            android:label="@string/title_activity_ping__pong__cos"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pap.mddsp.gameconsole.jogos.PingPong.resPP.Jogo.Ping_Pong_S"
+            android:label="@string/title_activity_ping__pong__s"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pap.mddsp.gameconsole.jogos.PingPong.resPP.Jogo.TiposDeJogos.DVR.Ping_Pong_DVR"
+            android:label="@string/title_activity_ping__pong__s"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pap.mddsp.gameconsole.jogos.PingPong.resPP.Jogo.TiposDeJogos.RS.Ping_Pong_RS"
+            android:label="@string/title_activity_ping__pong__s"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pap.mddsp.gameconsole.jogos.PingPong.resPP.Jogo.TiposDeJogos.IB.Ping_Pong_IB"
+            android:label="@string/title_activity_ping__pong__s"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pap.mddsp.gameconsole.jogos.PingPong.resPP.Jogo.TiposDeJogos.SS.Ping_Pong_SS"
+            android:label="@string/title_activity_ping__pong__s"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pap.mddsp.gameconsole.jogos.PingPong.resPP.Jogo.TiposDeJogos.SS2.Ping_Pong_SS2"
+            android:label="@string/title_activity_ping__pong__s"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pap.mddsp.gameconsole.jogos.PingPong.resPP.Jogo.TiposDeJogos.SS3.Ping_Pong_SS3"
+            android:label="@string/title_activity_ping__pong__s"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pap.mddsp.gameconsole.jogos.PingPong.Ping_Pong_CS"
+            android:label="@string/title_activity_ping__pong__cs"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".jogos.Quebra_Tijolos.Block_Breacker_Menu"
+            android:label="@string/title_activity_block__breacker__menu"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+        android:name=".jogos.Quebra_Tijolos.resQT.Jogo.Block_Breacker_New_Game"
+        android:label="@string/title_activity_block__breacker__menu"
+        android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".jogos.Quebra_Tijolos.resQT.costumGame.Block_Breacker_Costum_Game_Constr"
+            android:label="@string/title_activity_block__breacker__menu"
+            android:screenOrientation="landscape">
+        </activity>
+    </application>
+
+</manifest>

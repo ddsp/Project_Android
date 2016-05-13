@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Contem todas as strings do codigo -->
+<resources>
+
+    <string name="app_name">Consola de Jogos</string>
+    <string name="server">http://10.0.3.2:80</string>
+    <string name="action_settings">Settings</string>
+    <string name="user">Username :</string>
+    <string name="pass">Password :</string>
+    <string name="atemps">Tentativas :</string>
+    <string name="tent">0</string>
+    <string name="button_send">Login</string>
+    <string name="title_activity_Menu">Login</string>
+    <string name="offline">Offline Mode</string>
+    <string name="title_activity_ping__pong">Ping-Pong Menu</string>
+    <string name="title_activity_ping__pong__cos">Ping-Pong Personalizado</string>
+    <string name="title_activity_ping__pong__cs">Ping-Pong Personalizado Jogo</string>
+    <string name="title_activity_ping__pong__s">Ping-Pong Jogo</string>
+    <string name="NWGNP">Novo Jogo</string>
+    <string name="title_activity_block__breacker__menu">Block Breacker Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="J_Personalizado">Jogo Personalizado</string>
+    <string name="Modos_De_Jogo">Modos de Jogo</string>
+    <string name="V_Pont">Ver Pontuações</string>
+    <string name="Exit">Sair</string>
+    <string name="Pont">Pontuação</string>
+    <string name="Pont_J">Pontuação do Jogador</string>
+    <string name="Pont_O">Pontuação do Oponente</string>
+    <string name="Error">Algo Correu Mal</string>
+    <string name="Rank">Ranking</string>
+    <string name="Nome_User">Nome User</string>
+    <string name="Pont_Total">Pontuação Total</string>
+    <string name="Regist">Registar</string>
+    <string name="EmailL">Email :</string>
+    <string name="Larg">Largura</string>
+    <string name="larg75">75</string>
+    <string name="Speed">Velocidade</string>
+    <string name="SpeedSt">20</string>
+    <string name="Alt">Altura</string>
+    <string name="AltStardBC">40</string>
+    <string name="Jog">Jogar</string>
+    <string name="Alt40">40</string>
+    <string name="Raio">Raio</string>
+    <string name="R60">60</string>
+    <string name="VX">Velocidade X</string>
+    <string name="VY">Velocidade Y</string>
+    <string name="VX40">40</string>
+    <string name="VEY20">20</string>
+    <string name="delete">Eliminar</string>
+
+</resources>

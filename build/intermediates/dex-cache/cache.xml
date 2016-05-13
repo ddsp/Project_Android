@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="E:\mario\android-studio\project_final\GameConsole\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-aacf4e90374678fa294a26ef3aaa79690c7b749a.jar"
+        jar="E:\mario\android-studio\project_final\GameConsole\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a"/>
+    <item
+        dex="E:\mario\android-studio\project_final\GameConsole\app\build\intermediates\pre-dexed\debug\json-simple-1.1-851d90dce9064a4466db3922a812412d6b376345.jar"
+        jar="E:\mario\android-studio\project_final\GameConsole\app\libs\json-simple-1.1.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb"/>
+    <item
+        dex="E:\mario\android-studio\project_final\GameConsole\app\build\intermediates\pre-dexed\debug\json-simple-1.1-851d90dce9064a4466db3922a812412d6b376345.jar"
+        jar="E:\mario\android-studio\project_final\GameConsole\app\libs\json-simple-1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb"/>
+    <item
+        dex="E:\mario\android-studio\project_final\GameConsole\app\build\intermediates\pre-dexed\debug\classes-b68ac51e620ad6d083f8ca6c66764165faaad8eb.jar"
+        jar="E:\mario\android-studio\project_final\GameConsole\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328"/>
+    <item
+        dex="E:\mario\android-studio\project_final\GameConsole\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-0702ae0607b701155268e65f4a4c5839fe5260b5.jar"
+        jar="C:\Users\MDDSP\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a"/>
+    <item
+        dex="E:\mario\android-studio\project_final\GameConsole\app\build\intermediates\pre-dexed\debug\classes-c20a83c1403ce1478f9ac1da65ede01da1d52e5f.jar"
+        jar="E:\mario\android-studio\project_final\GameConsole\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551"/>
+
+</pre-dex-items>

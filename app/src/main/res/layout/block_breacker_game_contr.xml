@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/previewBaseG">
+
+        </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/propBB"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:visibility="visible">
+        <Spinner
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:spinnerMode="dropdown"
+            android:gravity="center"
+            android:id="@+id/colorSeleBB"
+            android:layout_margin="5dp"
+            android:visibility="visible"/>
+        <Button
+            android:layout_marginLeft="28dp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:clickable="true"
+            android:onClick="eli"
+            android:layout_marginTop="-3dp"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:text="@string/delete"
+            android:background="@layout/button_delete"
+            android:textColor="#ffffffff"/>
+        <Button
+            android:id="@+id/retirarV"
+            android:onClick="addP"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="-"/>
+        <TextView
+            android:id="@+id/caixaV"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:text="@string/tent"
+            android:background="#fff"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/addV"
+            android:onClick="addP"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="+"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/drwner">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/buttonVida"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:onClick="addP"
+                    android:src="@drawable/dontbegivinmeaheart"/>
+
+                <ImageButton
+                    android:id="@+id/buttonBalls"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:onClick="addP"
+                    android:src="@drawable/ballllllssssss"/>
+
+                <ImageButton
+                    android:id="@+id/buttonmoreSize"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:onClick="addP"
+                    android:src="@drawable/increasesize"/>
+
+                <ImageButton
+                    android:id="@+id/buttonLessSize"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:onClick="addP"
+                    android:src="@drawable/reducedsize"/>
+
+                <ImageButton
+                    android:id="@+id/buttonMoreSpeed"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:onClick="addP"
+                    android:src="@drawable/tofast2furios"/>
+
+                <ImageButton
+                    android:id="@+id/buttonLessSpeed"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:onClick="addP"
+                    android:src="@drawable/slowdown"/>
+
+                <ImageButton
+                    android:id="@+id/buttonExlod"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:onClick="addP"
+                    android:src="@drawable/exploderino"/>
+
+                <ImageButton
+                    android:id="@+id/buttonGrab"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:onClick="addP"
+                    android:src="@drawable/grabsomeballs"/>
+
+                <ImageButton
+                    android:id="@+id/buttonTroc"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:onClick="addP"
+                    android:src="@drawable/oposition"/>
+
+                </LinearLayout>
+            </ScrollView>
+        <ImageView
+            android:id="@+id/setaDR"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:src="@drawable/arrow_down"
+            android:onClick="AbrirFecharDR"/>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/start"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:onClick="iniciarJ"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:text="Começar Jogo"
+        android:background="@layout/button_start"
+        android:textColor="#ffffffff"/>
+
+</FrameLayout>

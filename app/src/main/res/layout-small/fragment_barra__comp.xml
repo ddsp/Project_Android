@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/comp_L"
+    tools:context="com.pap.mddsp.gameconsole.jogos.PingPong.resPP.costumGame.Barra_Player.Barra_Player">
+
+    <RelativeLayout
+        android:id="@+id/DemonstBC"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></RelativeLayout>
+
+    <TextView
+        android:id="@+id/Largura"
+        android:text="@string/Larg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <EditText
+        android:id="@+id/TextLarguraBC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginStart="75dp"
+        android:text="@string/larg75"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:ems="3"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/Speed"
+        android:text="@string/Speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <EditText
+        android:id="@+id/TextSpeedBC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:text="@string/SpeedSt"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:ems="3"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/Altura"
+        android:text="@string/Alt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="169dp"
+        android:layout_marginStart="169dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <EditText
+        android:id="@+id/TextAlturaBC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="239dp"
+        android:layout_marginStart="239dp"
+        android:text="@string/AltStardBC"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:ems="3"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:spinnerMode="dropdown"
+        android:id="@+id/colorSeleBC" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginStart="220dp"
+        android:text="@string/Jog"
+        android:id="@+id/JogarBC"/>
+
+</RelativeLayout>

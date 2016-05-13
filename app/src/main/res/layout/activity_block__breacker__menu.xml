@@ -1,0 +1,230 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.pap.mddsp.gameconsole.jogos.Quebra_Tijolos.Block_Breacker_Menu"
+    android:background="#000000">
+
+    <RelativeLayout
+        android:id="@+id/Menu"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:visibility="visible">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/NWGNP"
+            android:id="@+id/NewG"
+            android:layout_marginTop="73dp"
+            android:textColor="#fffff71c"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:onClick="Options_Game"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/J_Personalizado"
+            android:id="@+id/CosG"
+            android:layout_marginTop="120dp"
+            android:textColor="#fffff71c"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:visibility="visible"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:onClick="Options_Game"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/V_Pont"
+            android:id="@+id/PontV"
+            android:layout_marginTop="155dp"
+            android:textColor="#fffff71c"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:visibility="visible"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:onClick="Options_Game"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Exit"
+            android:id="@+id/Exit"
+            android:textColor="#fffff71c"
+            android:textStyle="bold"
+            android:layout_marginTop="185dp"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:onClick="Options_Game" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/PontRankMenu"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/close_RankPont"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginStart="280dp"
+            android:onClick="Options_Game"
+            android:src="@drawable/nonononoooooo"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/Error"/>
+
+        <RelativeLayout
+            android:id="@+id/Pont"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/Pont"
+                android:id="@+id/TituloPontJ"
+                android:textColor="#fffff71c"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <ImageView
+                android:id="@+id/Next_Rank"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="330dp"
+                android:layout_marginStart="330dp"
+                android:onClick="Options_Game"
+                android:src="@drawable/arrow_next"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/Error"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tbPont"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TableRow android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Data"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:text="Nivel Chegado"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+            </TableLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Rank"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/Rank"
+                android:id="@+id/TituloRankJ"
+                android:textColor="#fffff71c"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"/>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tbRank"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TableRow android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="@string/Rank"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:text="@string/Nome_User"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:text="Nivel chegado"
+                        android:background="@drawable/cell_shape"
+                        android:padding="5dp"
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+            </TableLayout>
+
+            <ImageView
+                android:id="@+id/prev_Pont"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:onClick="Options_Game"
+                android:src="@drawable/arrow_prev"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/Error"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
